@@ -1,0 +1,32 @@
+*{
+    background-color: palevioletred;
+    font-family: 'Courier New';
+}
+
+button {
+    background-color: red;
+    color: black;
+    border: 3px white solid;
+    height: 50px;
+    width: 200px;
+    border-radius: 25px;
+}
+
+button:hover {
+    background-color: black;
+    color: red;
+    border: 3px solid yellow;
+}
+
+button:active {
+    background-color: tan;
+    color: white;
+    border: 3px dotted gold;
+}
+
+.sex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
